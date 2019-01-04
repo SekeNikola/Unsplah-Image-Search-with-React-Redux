@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './assets/css/App.css';
 import SearchForm from './components/SearchForm';
 import ImageResults from './components/ImageResult';
 import unsplash from '../src/api/unsplash';

@@ -13,7 +13,7 @@ const ImageResults = props => {
                     <img className="userImg" src={image.user.profile_image.medium} alt="" />
                     <p>{image.user.name}</p>
                     <p>{capitalLetter(image.description)}. Likes: {image.likes}</p>
-                    <hr/>
+                    {/* <hr/> */}
                 </div>
             </div >
         )

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jumbotron{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+p{
+  margin: 0;
+  font-size: .8rem
+}
+
+.grid{
+  column-count: 3;
+  column-width: 150px
+}
+
+.imageCard{
+  display: inline-block;
+  position: relative;
+  transition: 2s all ease-in-out
+}
+
+.imageCard .photo{
+  width: 100%;
+  height: auto;
+}
+
+.description{
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.61)
+}
+
+.imageCard:hover > .description{
+  visibility: visible;
+}
+.userImg{
+  border-radius: 50%;
+  width: 45px
+}
